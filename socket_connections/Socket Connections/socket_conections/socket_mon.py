@@ -48,3 +48,4 @@ for val in fin_list:
 del out_list[:]
 del fin_list[:]
 c.clear()
+

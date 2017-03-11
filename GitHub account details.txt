@@ -1,0 +1,13 @@
+CMPE 273 Github repository URL - https://github.com/kashyap-raksha/CMPE273.git
+
+create a new directory on the command line -
+echo "# CMPE273" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/kashyap-raksha/CMPE273.git
+git push -u origin master
+
+Push an existing repository from the command line -
+git remote add origin https://github.com/kashyap-raksha/CMPE273.git
+git push -u origin master

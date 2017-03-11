@@ -28,7 +28,6 @@ connection_attr()
 from collections import Counter
 
 c = Counter(getattr(line, 'pids') for line in out_list)
-
 fin_list=[]
 class fin_obj:
     def __init__(self, pids, laddr, raddr, status,count):
@@ -49,4 +48,3 @@ for val in fin_list:
 del out_list[:]
 del fin_list[:]
 c.clear()
-
